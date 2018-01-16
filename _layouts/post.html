@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "en-ca">
+<head>
+	<meta charset="utf-8">
+	<title> {{site.title}}</title>
+	<link href = "{{site.baseurl}}/css/stylesheet.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+	<body>
+
+	 	<header>  	
+			{%include header.html%}
+			{{post.title}}
+		</header>
+
+	{{content}}
+
+		<footer>
+			{%include footer.html%}
+		</footer>
+
+	</body>

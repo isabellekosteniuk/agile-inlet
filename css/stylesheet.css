@@ -1,0 +1,138 @@
+html {
+	margin:0;
+	padding:0;
+	font: normal 100%/1.4 Georgia,serif; 
+
+
+}
+
+.main-nav { text-align: center; }
+.main-nav ul
+{
+	display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.main-nav li {
+    float: left;
+}
+
+.main-nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.main-nav li a.active { color: salmon; }
+.main-nav li a:hover {color: pink;}
+
+
+.text-section {
+  max-width:34em;
+  margin:auto;
+  margin-bottom: 7%;
+  padding:0 1em;
+  text-align: justify;
+}
+
+.text-section li {text-align: center;}
+
+.article-container { padding-bottom: 2rem; }
+
+header {
+
+	padding:3%;
+	text-align: center;
+
+}
+
+.logo { 
+	display: inline-block;
+	}
+
+h1 { 
+
+	display: inline-block;
+
+	}
+
+
+
+h1 a {text-decoration: none}
+
+
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.footer-nav { text-align: center; }
+.footer-nav ul
+{
+	display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.footer-nav li {
+    float: left;
+}
+
+.footer-nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0 15px;
+    text-decoration: none;
+
+}
+
+.footer-nav li a.active { color: salmon; }
+.footer-nav li a:hover {color: pink;}
+
+
+
+.flex-grid-thirds {
+
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+
+
+}
+
+
+.flex-grid-thirds .col {
+ 
+
+  width: 30%;
+  min-width: 300px;
+  padding:5%;
+  justify-content: space-between;
+  border: 20px solid white;
+  text-align: center;
+  background-color: salmon;
+
+}
+
+.flex-grid-thirds .col a {text-decoration: none}
+
+
+
+
+

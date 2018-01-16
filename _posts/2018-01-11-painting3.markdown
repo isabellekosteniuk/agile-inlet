@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "painting 3"
+date:   2018-01-11 10:54:37 -0500
+categories: portfolio
+---
+
+solar cell design, manufacture, and testing
