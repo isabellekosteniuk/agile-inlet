@@ -1,3 +1,9 @@
+# Demo
+
+available at https://agile-inlet-47799.herokuapp.com/
+
+includes a flashy logo, some questionable content on static pages, and user authentication!
+
 # Ruby on Rails Tutorial sample application
 
 This is the sample application for
